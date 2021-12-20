@@ -31,7 +31,7 @@ function FeedbackForm({handleAdd}) {
         if( text === '' ){
             setbtnDisabled(true);
             setmessage(null);
-        }else if( text != '' && text.trim().length <= 10){
+        }else if( text !== '' && text.trim().length <= 10){
             setmessage("Text must be at least 10 characters")
         }else{
             setbtnDisabled(false)
