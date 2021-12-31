@@ -109,6 +109,18 @@ header {
   border-radius: 8px;
 }
 
+.input-group .form-area{
+  flex-grow: 2;
+  border: none;
+  font-size: 16px;
+  height: 150px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.input-group .form-area:focus{
+  outline: none;
+}
+
 input {
   flex-grow: 2;
   border: none;
